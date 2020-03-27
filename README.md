@@ -10,6 +10,7 @@
 
 ## 要点
 
+- サーバー起動: yarn run nuxt
 - 開発時: NODE_ENV=development node nuxt-server.js
 - デプロイ前の動作確認: firebase serve --only functions:nuxtServer,hosting
 - デプロイ: firebase deploy --only functions:nuxtServer,hosting
